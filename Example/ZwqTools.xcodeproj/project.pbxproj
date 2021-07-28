@@ -32,7 +32,7 @@
 		33454F93F5CEAE7BAD8494B0 /* Pods-ZwqTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZwqTools_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZwqTools_Example/Pods-ZwqTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		44159DF08DEB73765DB7E0D9 /* Pods_ZwqTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZwqTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5986D0783740152144EF766F /* Pods_ZwqTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZwqTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DECEC9A05675627CC3D966E /* ZwqTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZwqTools.podspec; path = ../ZwqTools.podspec; sourceTree = "<group>"; };
+		5DECEC9A05675627CC3D966E /* ZwqTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZwqTools.podspec; path = ../ZwqTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* ZwqTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZwqTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		79AA9B13DE0C3E49F7CC65BF /* Pods-ZwqTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZwqTools_Example.release.xcconfig"; path = "Target Support Files/Pods-ZwqTools_Example/Pods-ZwqTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		87B6F086B0C0F3CECC2E50E3 /* Pods-ZwqTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZwqTools_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZwqTools_Tests/Pods-ZwqTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B9254E05F694A38386B6B9F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CBC8C32E4C1238BB1848EB79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B9254E05F694A38386B6B9F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CBC8C32E4C1238BB1848EB79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				078975AE64587103CAB9A8E9 /* Pods-ZwqTools_Tests.debug.xcconfig */,
 				87B6F086B0C0F3CECC2E50E3 /* Pods-ZwqTools_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

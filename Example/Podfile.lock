@@ -1,0 +1,16 @@
+PODS:
+  - ZwqTools (0.1.0)
+
+DEPENDENCIES:
+  - ZwqTools (from `../`)
+
+EXTERNAL SOURCES:
+  ZwqTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZwqTools: 0a5adf519bf7625632e219c2cc6840ad1e6d2659
+
+PODFILE CHECKSUM: 1d30cd6f462598623975abaa901a3df14c477cda
+
+COCOAPODS: 1.10.1

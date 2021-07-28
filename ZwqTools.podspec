@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZwqTools'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZwqTools.'
+  s.summary          = 'A Swift Tools class lib'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,17 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zhangwenqiang/ZwqTools'
+  s.homepage         = 'https://github.com/zwqustb/ZwqTools'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zhangwenqiang' => 'zhangwenqiang@lonch.com.cn' }
-  s.source           = { :git => 'https://github.com/zhangwenqiang/ZwqTools.git', :tag => s.version.to_s }
+  s.author           = { 'zhangwenqiang' => '522976741@qq.com' }
+  s.source           = { :git => 'https://github.com/zwqustb/ZwqTools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ZwqTools/Classes/**/*'
-  
+#  s.source_files = 'ZwqTools/Classes/**/*'
+  s.source_files = 'ZwqTools/**/*.{h,m,swift}'
+#  s.resources = 'MyPodDir/CoreData/MyPodModel*.xcdatamodeld'
   # s.resource_bundles = {
   #   'ZwqTools' => ['ZwqTools/Assets/*.png']
   # }
