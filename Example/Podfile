@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZwqTools_Example' do
+  pod 'ZwqTools', :path => '../'
+
+  target 'ZwqTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
